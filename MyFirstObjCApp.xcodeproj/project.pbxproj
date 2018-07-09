@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F10722920EE34ED005B00FA /* FirstSub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F10722820EE34ED005B00FA /* FirstSub.storyboard */; };
+		1F10722C20EE36C3005B00FA /* FirstSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F10722B20EE36C3005B00FA /* FirstSubController.m */; };
 		1FB2C93120D7C0CE0004E297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2C93020D7C0CE0004E297 /* AppDelegate.m */; };
 		1FB2C93420D7C0CE0004E297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2C93320D7C0CE0004E297 /* ViewController.m */; };
 		1FB2C93720D7C0CE0004E297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB2C93520D7C0CE0004E297 /* Main.storyboard */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F10722820EE34ED005B00FA /* FirstSub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstSub.storyboard; sourceTree = "<group>"; };
+		1F10722A20EE36C3005B00FA /* FirstSubController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstSubController.h; sourceTree = "<group>"; };
+		1F10722B20EE36C3005B00FA /* FirstSubController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstSubController.m; sourceTree = "<group>"; };
 		1FB2C92C20D7C0CE0004E297 /* MyFirstObjCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstObjCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB2C92F20D7C0CE0004E297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FB2C93020D7C0CE0004E297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +115,9 @@
 				1FB2C93A20D7C0D00004E297 /* LaunchScreen.storyboard */,
 				1FB2C93D20D7C0D00004E297 /* Info.plist */,
 				1FB2C93E20D7C0D00004E297 /* main.m */,
+				1F10722820EE34ED005B00FA /* FirstSub.storyboard */,
+				1F10722A20EE36C3005B00FA /* FirstSubController.h */,
+				1F10722B20EE36C3005B00FA /* FirstSubController.m */,
 			);
 			path = MyFirstObjCApp;
 			sourceTree = "<group>";
@@ -235,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F10722920EE34ED005B00FA /* FirstSub.storyboard in Resources */,
 				1FB2C93C20D7C0D00004E297 /* LaunchScreen.storyboard in Resources */,
 				1FB2C93920D7C0D00004E297 /* Assets.xcassets in Resources */,
 				1FB2C93720D7C0CE0004E297 /* Main.storyboard in Resources */,
@@ -263,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB2C93420D7C0CE0004E297 /* ViewController.m in Sources */,
+				1F10722C20EE36C3005B00FA /* FirstSubController.m in Sources */,
 				1FB2C93F20D7C0D00004E297 /* main.m in Sources */,
 				1FB2C93120D7C0CE0004E297 /* AppDelegate.m in Sources */,
 			);

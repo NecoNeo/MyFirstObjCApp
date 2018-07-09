@@ -10,6 +10,10 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *countNumLabel;
+@property UIStoryboard *firstSubSB;
+@property int countNum;
+
 @end
 
 @implementation ViewController
@@ -17,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.countNum = 0;
+    self.firstSubSB = [UIStoryboard storyboardWithName:@"FirstSub" bundle:nil];
 }
 
 
@@ -25,5 +31,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Tap:(id)sender {
+    self.countNum++;
+    NSString *showText = [NSString stringWithFormat:@"%d", self.countNum];
+    NSLog(@"%d times", self.countNum);
+    [self.countNumLabel setText: showText];
+}
+
+- (IBAction)NavToNextPage:(id)sender {
+    NSLog(@"will jump");
+//    UIViewController *nextVC = [[FirstSubController alloc] init];
+    UIViewController *nextVC = [self.firstSubSB instantiateViewControllerWithIdentifier:@"first-sub"];
+    NSLog(@"%p", nextVC);
+    [self.navigationController pushViewController:nextVC animated:YES];
+}
 
 @end
