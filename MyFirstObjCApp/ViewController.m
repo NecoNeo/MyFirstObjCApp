@@ -8,10 +8,11 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *countNumLabel;
-@property UIStoryboard *firstSubSB;
+@property DetailPageViewController *detailPage;
 @property int countNum;
 
 @end
@@ -22,7 +23,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.countNum = 0;
-    self.firstSubSB = [UIStoryboard storyboardWithName:@"FirstSub" bundle:nil];
 }
 
 
@@ -40,9 +40,7 @@
 
 - (IBAction)NavToNextPage:(id)sender {
     NSLog(@"will jump");
-//    UIViewController *nextVC = [[FirstSubController alloc] init];
-    UIViewController *nextVC = [self.firstSubSB instantiateViewControllerWithIdentifier:@"first-sub"];
-    NSLog(@"%p", nextVC);
+    DetailPageViewController *nextVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailPage"];
     [self.navigationController pushViewController:nextVC animated:YES];
 }
 

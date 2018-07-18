@@ -1,18 +1,18 @@
 //
-//  FirstSubController.m
+//  DetailPageViewController.m
 //  MyFirstObjCApp
 //
-//  Created by 布丁丸子酱 on 2018/7/5.
+//  Created by 布丁丸子酱 on 2018/7/18.
 //  Copyright © 2018年 布丁丸子酱. All rights reserved.
 //
 
-#import "FirstSubController.h"
+#import "DetailPageViewController.h"
 
-@interface FirstSubController ()
+@interface DetailPageViewController ()
 
 @end
 
-@implementation FirstSubController
+@implementation DetailPageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

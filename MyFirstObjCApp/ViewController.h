@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FirstSubController.h"
+#import "DetailPageViewController.h"
 
 @interface ViewController : UIViewController
 
