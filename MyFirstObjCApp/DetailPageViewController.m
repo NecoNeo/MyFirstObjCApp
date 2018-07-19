@@ -24,6 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)navToFinalPage:(id)sender {
+    UIViewController *nextVC = [self.storyboard instantiateViewControllerWithIdentifier:@"FinalPage"];
+    [self.navigationController pushViewController:nextVC animated:YES];
+}
+
 /*
 #pragma mark - Navigation
 
