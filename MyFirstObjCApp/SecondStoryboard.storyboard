@@ -24,7 +24,7 @@
                                 <items>
                                     <navigationItem title="Modal Page" id="RL8-hC-3p4">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="xJa-tM-Tj0">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ab0-UP-T5W">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ab0-UP-T5W">
                                                 <rect key="frame" x="16" y="7" width="52" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="dismiss"/>
