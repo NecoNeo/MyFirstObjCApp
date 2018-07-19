@@ -29,6 +29,12 @@
     [self.navigationController pushViewController:nextVC animated:YES];
 }
 
+- (IBAction)navToModalPage:(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"SecondStoryboard" bundle:nil];
+    UIViewController *nextVC = [storyboard instantiateViewControllerWithIdentifier:@"ModalPage"];
+    [self.navigationController presentViewController:nextVC animated:YES completion:nil];
+}
+
 /*
 #pragma mark - Navigation
 

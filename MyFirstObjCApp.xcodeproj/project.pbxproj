@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F33E66E20FF45200090C844 /* DetailPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33E66D20FF45200090C844 /* DetailPageViewController.m */; };
 		1F33E670210034D20090C844 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F33E66F210034D20090C844 /* SecondStoryboard.storyboard */; };
+		1F33E673210062930090C844 /* ModalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33E672210062930090C844 /* ModalPageViewController.m */; };
 		1FB2C93120D7C0CE0004E297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2C93020D7C0CE0004E297 /* AppDelegate.m */; };
 		1FB2C93420D7C0CE0004E297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2C93320D7C0CE0004E297 /* ViewController.m */; };
 		1FB2C93720D7C0CE0004E297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB2C93520D7C0CE0004E297 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 		1F33E66C20FF45200090C844 /* DetailPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailPageViewController.h; sourceTree = "<group>"; };
 		1F33E66D20FF45200090C844 /* DetailPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailPageViewController.m; sourceTree = "<group>"; };
 		1F33E66F210034D20090C844 /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
+		1F33E671210062930090C844 /* ModalPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalPageViewController.h; sourceTree = "<group>"; };
+		1F33E672210062930090C844 /* ModalPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalPageViewController.m; sourceTree = "<group>"; };
 		1FB2C92C20D7C0CE0004E297 /* MyFirstObjCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstObjCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB2C92F20D7C0CE0004E297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FB2C93020D7C0CE0004E297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				1FB2C93320D7C0CE0004E297 /* ViewController.m */,
 				1FB2C93520D7C0CE0004E297 /* Main.storyboard */,
 				1F33E66F210034D20090C844 /* SecondStoryboard.storyboard */,
+				1F33E671210062930090C844 /* ModalPageViewController.h */,
+				1F33E672210062930090C844 /* ModalPageViewController.m */,
 				1F33E66C20FF45200090C844 /* DetailPageViewController.h */,
 				1F33E66D20FF45200090C844 /* DetailPageViewController.m */,
 				1FB2C93820D7C0D00004E297 /* Assets.xcassets */,
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F33E673210062930090C844 /* ModalPageViewController.m in Sources */,
 				1F33E66E20FF45200090C844 /* DetailPageViewController.m in Sources */,
 				1FB2C93420D7C0CE0004E297 /* ViewController.m in Sources */,
 				1FB2C93F20D7C0D00004E297 /* main.m in Sources */,
