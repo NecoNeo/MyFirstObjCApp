@@ -124,6 +124,15 @@
                                     <action selector="navToModalPage:" destination="RbN-ie-Ld9" eventType="touchUpInside" id="a8M-er-mbH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ps-eK-VQY">
+                                <rect key="frame" x="119" y="587" width="144" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="NavWithSegue"/>
+                                <connections>
+                                    <segue destination="If1-gX-nPm" kind="show" id="rOP-uK-AK0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1Y6-yo-jh3"/>
@@ -132,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d6V-IR-4IR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="951.20000000000005" y="98.50074962518741"/>
+            <point key="canvasLocation" x="986" y="99"/>
         </scene>
         <!--FinalPage ThirdPage-->
         <scene sceneID="hb9-2M-6C2">
@@ -161,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTD-AL-qxz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1616.8" y="100.29985007496252"/>
+            <point key="canvasLocation" x="1753" y="99"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="s84-h7-3kI">
